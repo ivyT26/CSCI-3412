@@ -1,0 +1,11 @@
+List read from file.
+[[3], [1, 1, 0], [1, 2, 2], [1, 3, 3], [2, 1, -1], [2, 2, 0], [2, 3, 5], [3, 1, -1], [3, 2, 3], [3, 3, 0]]
+Sorted array of edges:
+[[1, 1, 0], [1, 2, 2], [1, 3, 3], [2, 1, -1], [2, 2, 0], [2, 3, 5], [3, 1, -1], [3, 3, 0], [3, 2, 3]]
+Visited nodes in order.
+[1, 2, 3]
+Read each nested list in big list as follows: [source node, destination node, weight].
+Total length of path starting at first node in list to all other nodes.
+[[1, 1, 0], [1, 2, 2], [1, 3, 3]]
+All relaxed edges of the graph.
+[[1, 2, 2], [2, 3, 5], [1, 3, 3]]
