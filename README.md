@@ -1,3 +1,14 @@
 # CSCI-3412
 
-All homework assignments for Algorithms class.
+This repository contains all homework assignments for the Algorithms course.  
+This course was taken at the University of Colorado Denver, Spring 2020. Professor: Sung Nam.  
+
+Python is the main programming language used for all assignments.  
+
+<b>Homeworks</b>  
+HW1: Learn the basics of python programming and learned how to create a time efficiency function that records the amount of time it takes for an algorithm to run using Python functions and decorators.  
+HW2: Created a Python program that runs merge sort and insertion sort, then compares the time efficiencies and number of comparisons of each sorting algorithm for input sizes of 1k, 10k, 100k, 250k, 500k, and 1M. The time efficiencies and number of comparisons were then stored into an html file in table format. Also learned how to write and prove the loop invariant for merge sort.  
+HW3: Learned how to prove the Big O notation for various sorting algorithms with n/k lists and input size k. Also learned how to prove the loop invariant for selection sort, insertion sort, and bubble sort. Also created a Python program that modifies the merge sort algorithm to merge n/k sublists and uses selection sort to sort each sublist of size k. Instead of using merge sort to split the original array until the subarray is size 1 and merge them to sort it, the modified merge sort will split the original array until the subarray is size k and sort it then.  
+HW4: Created a program to modify the merge sort to sort in O(logk) time using a minheap. Also learned to analyze the time complexities of various linked list functions for singly linked lists and doubly linked lists, and different implementations of a hash table. For extra credit, I learned how to web scrape websites using BeautifulSoup and store the information into a json file.  
+HW5: Learned about binary search trees, red-black trees, and tree rotations. Also created a program that simulates the longest common sequence using recursion and memoization. Also created a program that takes the LCS recursion code to get the number of recursive calls made, store the number of recursive calls as the key for the hash table and the number of occurrences as the value for the hash table for 250k different numbers as input, and create a bar graph in the HTML file. Created two implementations of the hash table where the keys were in the range of 0-100k, and the second hash table would modify the keys to create new keys in the range of 0-10k.  
+HW6: Created programs that simulated Dijkstra's algorithm, calculated the least number of coins greedy algorithm and calculated the total number of ways to make change greedy algorithm. Also created a report to learn about the steps to Dijkstra's shortest path and Prim's minimum spanning tree algorithms and their differences.  
